@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background_image.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 500px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 10%;
+}
+header h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 4.76837rem;
+    color: white;
+}
+header h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 4.76837rem;
+}
+header h2, h1{
+    display: inline;
+}
+header p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    opacity: .75;
+    color: white;
+    text-align: center;
+}
+header button{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 2px 7px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 600;
+    letter-spacing: .01em;
+    line-height: 1.5;
+    margin: 0.5rem;
+    cursor: pointer;
+    margin-top: 36px;
+
+}
+header button:hover{
+    background-color: white;
+        color: black;
+        transition: 0.5s;
+}
+.important{
+    color: black;
+    background-color: white;
+    border-style: none;
+}
+.important:hover{
+    background-color: black;
+    color: white;
+            transition: 0.5s;
+}
+section{
+    text-align: center;
+    float: center;
+    margin-top: -7%;
+    position: absolute;
+}
+section img{
+    width: 27%;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+.img3{
+    width: 25.3%;
+}
+
